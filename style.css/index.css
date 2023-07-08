@@ -11,13 +11,13 @@
     height: 808px;
     background-repeat: no-repeat;
 }
+/* header about  */
 .banner-head{
     color: white;
     text-align: right;
     margin: 0;
 
 }
-
 aside{
     float: right;
     margin-top: 216px;
@@ -111,8 +111,9 @@ main li{
 /* last.contant  */
 .last{
     background-image: linear-gradient(338deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.0984768907563025) 9%, rgba(85, 75, 255, 1) 100%), url('../images/watch.png');
-    display: block;
-    width: 1140px;
+    background-position: cover;
+    background-repeat: no;
+    width: 1920;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -150,6 +151,7 @@ padding: 59px 0 0 64px;
     align-items: center;
     padding: 130px 230px;
 }
+/* address */
 .last-tittle{
     font-size: 45px;
     font-style: normal;
@@ -170,13 +172,15 @@ footer a{
     margin-bottom: 16px;
 }
 
-/* .sub-tittle{
-    display: block;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}*/
+.social{
+    display: flex;
+    
+}
+.social a{
+    display: inline-block;
+    margin-right: 20px;
+}
+/*subscription */
 footer .subscribe h1{
     font-size: 25px;
     font-style: normal;
